@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statements</title>
+</head>
+<body>
+    <script type="text/Javascript">
+
+        const fruit = "oranges"
+        switch (fruit) {
+            case "mangoes":
+                document.write("The price of mangoes is Ksh. 20" + "<br>");
+                break;
+        
+            case "oranges":
+                document.write("The price is Ksh. 10" + "<br>");
+                break;
+
+            case "papayas":
+                document.write("The price of papayas is Ksh. 30" + "<br>");
+                break;
+
+            default:
+                document.write("The price is undetermined" + "<br>");
+                break;
+        }
+
+        var d = new Date();
+        theday = d.getDay();
+
+        switch (theday) {
+            case 1:
+                document.write("Today is Monday" + "<br>");
+                break;
+                
+            case 2:
+                document.write("Today is Tuesday" + "<br>");
+                break;
+
+            case 3:
+                document.write("Today is Wednesday" + "<br>");
+                break;
+
+            case 4:
+                document.write("Today is Thursday" + "<br>");
+                break;
+
+            case 5:
+                document.write("Today is Friday" + "<br>");
+                break;
+
+            case 6:
+                document.write("Today is Saturday" + "<br>");
+                break;
+        
+            default:
+                document.write("Today is Sunday");
+                break;
+        }
+        
+    </script>
+</body>
+</html>

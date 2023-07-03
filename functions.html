@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        function greetings(name) {
+            document.write("Good morning " + name + "<br>");
+        }
+        // calling a function
+        greetings("Nancy");
+
+        function sum(a, b) {
+            var total = a + b
+            document.write("The sum of " + a + " and " + b + " is: " + total + "<br>");
+        }
+
+        sum(39, 62);
+
+        function average(a, b, c) {
+            var avg = (a + b + c) / 3
+            // var avg = sum / 3
+            document.write("The average of " + a + ", " + b + ", " + "and " + c + " is: "  + avg + "<br>");
+        }
+        average(20, 24, 30);
+
+        function area(l, w) {
+            area = l * w
+            document.write("The area of a rectangle is: " + area + "<br>");
+        }
+
+        area(45, 90);
+
+        function circleArea(r) {
+            var pi = 22 / 7
+            var areaC = pi * r * r
+            document.write("The area of a circle is: " + areaC + "<br>");
+        }
+
+        circleArea(20);
+
+    </script>
+    
+</body>
+</html>

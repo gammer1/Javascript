@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Ups</title>
+</head>
+
+<body>
+    <script type="text/Javascript">
+        function confirmPop(name) { 
+            confirm("Are you sure you want to close? " + name); 
+        } 
+        confirmPop("Nancy"); 
+        
+        function promptPop(name) { 
+            prompt("Enter your name: " + name); 
+        } 
+        promptPop("Nancy"); 
+        
+        function alertPop(name) { 
+            var name = "Nancy"; 
+            alert("Hello World!" + name); 
+        } 
+        alertPop("Nancy");
+    </script>
+</body>
+
+</html>

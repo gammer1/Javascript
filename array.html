@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <script type="text/Javascript">
+        // creating an array of strings 
+        var students = ["Nancy", "Mildred", "Joseph", "Mercy", "Michelle"]; 
+        document.write(students + "<br>"); 
+        
+        // Creating an array of number elements 
+        var marks = [46, 26, 73,28, 76]; 
+        document.write("The elements are: " + marks + "<br>"); 
+        
+        // Accessing element in index i in the array 
+        document.write(students[3] + "<br>"); 
+        
+        // Displaying the length of our array using the .length property 
+        document.write("The length of student's array is: " + students.length + "<br>");
+
+        // using push() to add an array element 
+        students.push("Kevin", "Robert", "Mary") 
+        document.write(students + "<br>"); 
+        
+        // using pop() to remove the last element of an array 
+        students.pop(); 
+        document.write(students + "<br>"); 
+        
+        // Looping an array 
+        for (var i = 0; i < students.length; i++) { 
+            document.write(students[i] + "<br>"); 
+        } 
+            
+        // Shift() array 
+        students.shift(); 
+        document.write(students + "<br>"); 
+        
+        // Unshift() - adds an element in the beginning 
+        students.unshift( "Joe"); 
+        document.write(students + "<br>"); 
+    </script>
+</body>
+
+</html>
