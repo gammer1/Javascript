@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //declaration of an object
+const person={//creating an object person
+firstname:"kelvin",//key firstname with value john
+lastname:"kiptoo",
+age:"21",
+height:5,
+weight:63,
+//a method as avalue
+greet:function(){document.write("hello")}
+}
+
+//declarationof my car object
+const mycar={
+    model:"bmw",
+    color:"black",
+    year:2023,
+    specification:function(){
+        document.write("the model of my car is"+this.model +"and the color"+this.color +"made in" +this.year +"<br>")
+    }
+}
+
+mycar.specification()
+
+
+//accessing the object property using dot notation
+//objectnamekey
+document.write("the firstname is " +person.firstname+ "and age is" +person.age +"<br>")
+
+
+//accessing the object property using dot notation
+//objectname["propertname"]
+document.write("the last name is" + person["lastname"] +"<br>")
+
+
+//accessing object method
+person.greet()
+</script>
+</body>
+</html>
